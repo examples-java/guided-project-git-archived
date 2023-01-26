@@ -53,15 +53,19 @@ Project contains Calculator functionality with part of the implementation missin
 
 ### Installation
 
-Project needs to be built and compiled using IDEA run configurations or Java console commands
+Project can be built using Gradle command below:
+
+`
+gradle clean build
+`
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-In order to run Calculator please run Main class using the command below
+Application could be executed using Gradle command below:
 
 `
-java -cp bin/Main
+gradle run
 `
 
 <!-- CONTACT -->
